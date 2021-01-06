@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.head {
+ text-align: center;
+ color:rgb(37, 0, 107);
+ font-family: 'Trebuchet MS';
+ font-weight: bolder;
+ background-color: rgb(255, 241, 51);
+ padding: 10px;
+}
+
+.content{
+  margin: 10px;
+  background-color: plum;
+}
+
+.tab{
+  border: 1px solid grey;
+}

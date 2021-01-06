@@ -1,12 +1,22 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Table_had,{Table} from './Table';
 import reportWebVitals from './reportWebVitals';
+
+class App2 extends Component {
+  render(){
+    return ( 
+        <Table_had />
+    )
+  }
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Table />
+    <App2 />
   </React.StrictMode>,
   document.getElementById('root')
 );
