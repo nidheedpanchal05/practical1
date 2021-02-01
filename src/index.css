@@ -21,11 +21,64 @@ code {
  padding: 10px;
 }
 
-.content{
-  margin: 10px;
-  background-color: plum;
+.content, .home{
+  margin: 40px;
 }
 
 .tab{
-  border: 1px solid grey;
+  border: 1px solid rgb(8, 0, 128);
+  margin: 30px 30px;
+}
+
+.nav {
+  background-color: rgb(68, 0, 62);
+  padding: 10px;
+}
+
+.nav-items{
+  display: inline;
+  list-style: none;
+  margin: 10px;
+}
+
+.nav-items a {
+  color: rgba(253, 229, 251, 0.89);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+body {
+  background-color: rgba(253, 229, 251, 0.89);
+}
+
+.select-opt{
+  background-color: rgb(68, 0, 62);
+  color: rgba(253, 229, 251, 0.89);
+  padding: 10px;
+  margin: 15px;
+  font-size: 20px;
+  border-radius: 50px;
+  outline: none;
+}
+
+h1, p {
+  color: rgb(68, 0, 62);
+  margin: 10px;
+}
+
+img {
+  margin: 10px;
+}
+
+.btn {
+  background-color: rgb(68, 0, 62);
+  color: rgba(253, 229, 251, 0.89);
+  padding: 10px;
+  border: 2px solid rgb(68, 0, 62);
+  border-radius: 50px;
+  outline: none;
+  margin: 10px;
+  font-size: 16px;
 }

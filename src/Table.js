@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-class Table_had extends Component {
+class Tablehad extends Component {
  render() {
     return (
         <html>
@@ -18,8 +18,8 @@ class Table_had extends Component {
                         <td>SYIT</td>
                     </tr>
                     <tr>
-                        <td>Dikshita</td>
-                        <td>385</td>
+                        <td>Devika</td>
+                        <td>377</td>
                         <td>SYIT</td>
                     </tr>
                 </tbody>
@@ -32,10 +32,10 @@ class Table_had extends Component {
 const Table = () => {
     return (
         <html>
-            <h2> Some sample Text</h2>
+            <h2>Here is some sample Text</h2>
         </html>
         );
 }
 
-export default Table_had;
+export default Tablehad;
 export { Table }
